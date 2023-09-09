@@ -10,7 +10,7 @@ import { Person } from "../interface/person";
 export class PersonService {
 
   private endpoint:string = environment.apiUrl;
-  private apiUrl:string = this.endpoint + "persons/"
+  private apiUrl:string = this.endpoint + "users/"
     
   constructor(private http:HttpClient) { }
   

@@ -2,6 +2,8 @@
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 15.1.6.
 
+Adicionalmente se informa que no se usó Tailwind ni Bootstrap, en cambio se utilizó Angular Material.
+
 ## Prerrequisitos
 
 Asegúrate de tener instalado Node.js y npm en tu sistema. Puedes descargarlos desde [Node.js](https://nodejs.org/).

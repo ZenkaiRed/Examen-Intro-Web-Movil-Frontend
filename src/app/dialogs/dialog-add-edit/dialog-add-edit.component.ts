@@ -29,7 +29,6 @@ export class DialogAddEditComponent implements OnInit{
     this.personForm = this.formBuilder.group({
       rut:['', Validators.required],
       firstName:['', Validators.required],
-      lastName:['', Validators.required],
       phone:['', Validators.required],
     })
   }
@@ -47,7 +46,6 @@ export class DialogAddEditComponent implements OnInit{
       id: 0,
       rut: this.personForm.value.rut,
       firstName: this.personForm.value.firstName,
-      lastName: this.personForm.value.lastName,
       phone: this.personForm.value.phone,
     }
     
@@ -82,7 +80,6 @@ export class DialogAddEditComponent implements OnInit{
         idPerson: this.dataPerson.id,
         rut: this.dataPerson.rut,
         firstName: this.dataPerson.firstName,
-        lastName: this.dataPerson.lastName,
         phone: this.dataPerson.phone
       })
     }
