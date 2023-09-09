@@ -1,27 +1,48 @@
-# AngularFrotn
+# Proyecto de Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 15.1.6.
 
-## Development server
+## Prerrequisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Asegúrate de tener instalado Node.js y npm en tu sistema. Puedes descargarlos desde [Node.js](https://nodejs.org/).
 
-## Code scaffolding
+## Pasos para ejecutar el proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Sigue estos pasos para ejecutar el proyecto en tu entorno de desarrollo local:
 
-## Build
+1. **Clona el repositorio**:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   ```bash
+   git clone https://github.com/ZenkaiRed/Examen-Intro-Web-Movil-Frontend.git
 
-## Running unit tests
+2. **Navega al directorio del proyecto**:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```bash
+   cd tu-proyecto-angular
+   
+3. **Instala las dependencias**:
 
-## Running end-to-end tests
+   Ejecuta el siguiente comando para instalar todas las dependencias del proyecto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   npm install
 
-## Further help
+* Esto descargará todas las dependencias especificadas en el archivo package.json y las instalará localmente en la carpeta node_modules.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+4. **Inicia el servidor de desarrollo**:
+
+   Utiliza el siguiente comando para iniciar el servidor de desarrollo de Angular:
+
+   ```bash
+   ng serve
+   
+
+*   El servidor se ejecutará en http://localhost:4200/ de forma predeterminada. Puedes abrir este enlace en tu navegador para ver la aplicación en ejecución.
+
+  * Navega a la aplicación:
+
+ *  Abre tu navegador web y navega a http://localhost:4200/ para acceder a la aplicación Angular.
+
+*   Detener el servidor de desarrollo
+   Para detener el servidor de desarrollo, simplemente presiona Ctrl + C en la terminal donde se está ejecutando el comando ng serve.
