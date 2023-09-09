@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppRoutingModule } from "./app-routing.module";
 
 // 1.- Trabajar con ReactiveForms
 import { ReactiveFormsModule } from "@angular/forms";
@@ -26,15 +27,18 @@ import { MatDialogModule } from "@angular/material/dialog";
 import { MatGridListModule } from "@angular/material/grid-list";
 import { DialogAddEditComponent } from './dialogs/dialog-add-edit/dialog-add-edit.component';
 import { DialogDeleteComponent } from './dialogs/dialog-delete/dialog-delete.component';
+import { ReservasComponent } from './reservas/reservas.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DialogAddEditComponent,
-    DialogDeleteComponent
+    DialogDeleteComponent,
+    ReservasComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
